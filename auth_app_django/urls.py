@@ -20,7 +20,7 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
-from djanho_rest_auth_auth.urls import rest_auth_urlpatterns
+from dj_rest_auth_auth.urls import rest_auth_urlpatterns
 from djoser_auth.urls import djoser_auth_urlpatterns
 
 schema_view = get_schema_view(

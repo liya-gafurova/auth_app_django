@@ -60,6 +60,7 @@ INSTALLED_APPS = [
 
     # custom
     'djoser_auth',
+    "dj_rest_auth_auth",
 
 ]
 
